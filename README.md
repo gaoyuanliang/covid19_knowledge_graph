@@ -47,7 +47,7 @@ cd covid19_knowledge_graph
 
 # data collection 
 
-collect the entities and relationships of covid 19 from wikibase by sparql language at https://query.wikidata.org/
+collect the entities and relationships of covid 19 from wikibase by SPARQL queries at https://query.wikidata.org/
 
 ```sql
 SELECT ?s ?sLabel ?sAltLabel ?st ?stLabel 
