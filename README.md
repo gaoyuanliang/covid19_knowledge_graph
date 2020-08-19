@@ -47,6 +47,35 @@ cd covid19_knowledge_graph
 
 collect the entities and relationships of covid 19 from wikibase by sparql  at https://query.wikidata.org/
 
+```sql
+SELECT ?s ?sLabel ?sAltLabel ?st ?stLabel 
+?rp ?rpLabel 
+?o ?oLabel ?oAltLabel ?ot ?otLabel 
+WHERE
+{
+?s wdt:P361 wd:Q83741704 .
+?s ?r ?o .
+?s wdt:P31 ?st .
+?o wdt:P31 ?ot .
+?rp wikibase:directClaim ?r . 
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+
+SELECT ?s ?sLabel ?sAltLabel ?st ?stLabel 
+?rp ?rpLabel 
+?o ?oLabel ?oAltLabel ?ot ?otLabel 
+WHERE
+{
+?o wdt:P361 wd:Q83741704 .
+?s ?r ?o .
+?s wdt:P31 ?st .
+?o wdt:P31 ?ot .
+?rp wikibase:directClaim ?r . 
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+
+```
+
 # building knowledge graph at neo4j 
 
 convert them to nodes and edges of noe4j
