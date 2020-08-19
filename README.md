@@ -6,7 +6,7 @@ Building a Knowledge graph of covid19 on neo4j
 
 ## installation 
 
-### installation of noe4j
+### installation of Neo4j 
 
 ```bash
 wget http://neo4j.com/artifact.php?name=neo4j-community-3.5.12-unix.tar.gz
