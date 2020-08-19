@@ -1,7 +1,7 @@
 # Covid 19 Knowledge Graph
 Knowledge graph of covid19
 
-<img src="https://github.com/gaoyuanliang/covid_knowledge_graph/raw/master/kgcv.png" width="800">
+<img src="https://github.com/gaoyuanliang/covid_knowledge_graph/raw/master/WX20200819-180451%402x.png" width="800">
 
 1. collect the entities and relationships of covid 19 from wikibase by sparql  at https://query.wikidata.org/
 
