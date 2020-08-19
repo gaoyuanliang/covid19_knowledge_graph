@@ -96,7 +96,7 @@ ongoing
 
 # TODO list
 
-building the function to link the news texts to the entities of the covid knowledge graph
+building the function to link the news texts to the entities of the covid knowledge graph, by using the open source code of https://github.com/wikilinks/nel/blob/master/notebooks/train.ipynb
 
 building the dashboards of the covid events, with map, time, and other attributs
 
