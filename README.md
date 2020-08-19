@@ -96,9 +96,12 @@ ongoing
 
 # TODO list
 
-building the function to link the news texts to the entities of the covid knowledge graph, by using the open source code of https://github.com/wikilinks/nel/blob/master/notebooks/train.ipynb
+* building the function to link the news texts to the entities of the covid knowledge graph, by using the open source code of https://github.com/wikilinks/nel/blob/master/notebooks/train.ipynb
 
-building the dashboards of the covid events, with map, time, and other attributs
+* building the dashboards of the covid events, with map, time, and other attributs
+
+* building a local Standalone SPARQL search service to speed up the query process https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Standalone_service
+
 
 # Contact
 
