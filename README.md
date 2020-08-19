@@ -28,10 +28,11 @@ reset new password to
 neo4j1
 ```
 
-### installation of pyspark
+### installation of pyspark and neo4j package
 
 ```bash
 pip3 install pyspark
+pip3 install neo4j
 ```
 
 1. collect the entities and relationships of covid 19 from wikibase by sparql  at https://query.wikidata.org/
