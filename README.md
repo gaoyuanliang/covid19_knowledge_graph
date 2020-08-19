@@ -1,6 +1,6 @@
 # Covid 19 Knowledge Graph with Neo4j 
 
-Building a Knowledge graph of covid19 on neo4j, from the data of Wikipedia data, Wikidata, by SPARQL quarying
+Building a Knowledge graph of covid19 on neo4j, from the data of Wikipedia data, Wikidata, by SPARQL querying
 
 If you are working on similar projects, I am happy to help. Contact me by gaoyuanliang@outlook.com 
 
