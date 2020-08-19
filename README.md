@@ -94,6 +94,12 @@ go to http://localhost:7474/ to see the results
 
 ongoing
 
+# TODO list
+
+building the function to link the news texts to the entities of the covid knowledge graph
+
+building the dashboards of the covid events, with map, time, and other attributs
+
 # Contact
 
 I am actively looking for a data science/AI related job. If you have such an opportunity, thank you so much for contacting me. I am ready for an interview at any time. My email is gaoyuanliang@outlook.com
