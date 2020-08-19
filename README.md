@@ -35,10 +35,14 @@ pip3 install pyspark
 pip3 install neo4j
 ```
 
-1. collect the entities and relationships of covid 19 from wikibase by sparql  at https://query.wikidata.org/
+# data collection 
 
-2. convert them to nodes and edges of noe4j
+collect the entities and relationships of covid 19 from wikibase by sparql  at https://query.wikidata.org/
 
-3. ingest them to noe4j
+# building knowledge graph at neo4j 
 
-4. build use cases from no4j 
+convert them to nodes and edges of noe4j
+
+ingest them to noe4j
+
+build use cases from no4j 
