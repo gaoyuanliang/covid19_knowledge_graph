@@ -84,8 +84,14 @@ SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 python3 jessica_covid_knowledge_graph.py
 ```
 
-convert them to nodes and edges of noe4j
+## check the kowledge graph 
 
-ingest them to noe4j
+go to http://localhost:7474/ to see the results
 
-build use cases from no4j 
+## build use cases from neo4j 
+
+ongoing
+
+# Contact
+
+I am actively looking for a data science/AI related job. If you have such an opportunity, thank you so much for contacting me. I am ready for an interview at any time. My email is gaoyuanliang@outlook.com
