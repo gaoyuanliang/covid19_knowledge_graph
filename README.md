@@ -78,6 +78,12 @@ SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 
 # building knowledge graph at neo4j 
 
+## ingest the data into neo4j
+
+```bash
+python3 jessica_covid_knowledge_graph.py
+```
+
 convert them to nodes and edges of noe4j
 
 ingest them to noe4j
