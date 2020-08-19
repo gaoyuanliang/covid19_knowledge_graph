@@ -1,10 +1,25 @@
-SELECT ?s ?sLabel ?sAltLabel ?st ?stLabel ?rp ?rpLabel 
+SELECT ?s ?sLabel ?sAltLabel ?st ?stLabel 
+?rp ?rpLabel 
+?o ?oLabel ?oAltLabel ?ot ?otLabel 
 WHERE
 {
-VALUES ?o { wd:Q84263196 wd:Q81068910 wd:Q83741704}
+?s wdt:P361 wd:Q83741704 .
 ?s ?r ?o .
 ?s wdt:P31 ?st .
+?o wdt:P31 ?ot .
 ?rp wikibase:directClaim ?r . 
 SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 }
 
+SELECT ?s ?sLabel ?sAltLabel ?st ?stLabel 
+?rp ?rpLabel 
+?o ?oLabel ?oAltLabel ?ot ?otLabel 
+WHERE
+{
+?o wdt:P361 wd:Q83741704 .
+?s ?r ?o .
+?s wdt:P31 ?st .
+?o wdt:P31 ?ot .
+?rp wikibase:directClaim ?r . 
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
