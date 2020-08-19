@@ -1,5 +1,6 @@
-# Covid 19 Knowledge Graph
-Knowledge graph of covid19
+# Covid 19 Knowledge Graph with Neo4j 
+
+Building a Knowledge graph of covid19 on neo4j 
 
 <img src="https://github.com/gaoyuanliang/covid_knowledge_graph/raw/master/WX20200819-180451%402x.png" width="800">
 
@@ -33,6 +34,13 @@ neo4j1
 ```bash
 pip3 install pyspark
 pip3 install neo4j
+```
+
+### download this package 
+
+```bash
+git clone https://github.com/gaoyuanliang/covid19_knowledge_graph.git
+cd covid19_knowledge_graph
 ```
 
 # data collection 
