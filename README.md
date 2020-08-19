@@ -1,4 +1,4 @@
-# covid_knowledge_graph
+# Covid 19 Knowledge Graph
 Knowledge graph of covid19
 
 1. collect the entities and relationships of covid 19 from wikibase by sparql  at https://query.wikidata.org/
