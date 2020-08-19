@@ -1,10 +1,10 @@
-SELECT ?s ?sLabel ?sAltLabel ?st ?stLable ?rp ?rpLabel 
+SELECT ?s ?sLabel ?sAltLabel ?st ?stLabel ?rp ?rpLabel 
 WHERE
 {
-VALUES ?o { wd:Q84263196 wd:Q81068910 }
+VALUES ?o { wd:Q84263196 wd:Q81068910 wd:Q83741704}
 ?s ?r ?o .
 ?s wdt:P31 ?st .
 ?rp wikibase:directClaim ?r . 
 SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 }
-LIMIT 100
+
