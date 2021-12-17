@@ -2,7 +2,7 @@
 
 Building a Knowledge graph of covid19 on neo4j, from the data of Wikipedia data, Wikidata, by SPARQL querying
 
-If you are working on similar projects, I am happy to help. Contact me by gaoyuanliang@outlook.com 
+If you are working on similar projects, I am happy to help. Contact me by yanliang2345@outlook.com
 
 <img src="https://github.com/gaoyuanliang/covid_knowledge_graph/raw/master/WX20200819-180451%402x.png" width="800">
 
@@ -105,4 +105,4 @@ ongoing
 
 # Contact
 
-I am actively looking for a data science/AI related job. If you have such an opportunity, thank you so much for contacting me. I am ready for an interview at any time. My email is gaoyuanliang@outlook.com
+I am actively looking for a data science/AI related job. If you have such an opportunity, thank you so much for contacting me. I am ready for an interview at any time. My email is yanliang2345@outlook.com
